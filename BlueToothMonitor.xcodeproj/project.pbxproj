@@ -18,6 +18,7 @@
 		9626DB671736396B00796BF0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9626DB661736396B00796BF0 /* Default-568h@2x.png */; };
 		9626DB6A1736396B00796BF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9626DB691736396B00796BF0 /* ViewController.m */; };
 		9626DB6D1736396B00796BF0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9626DB6B1736396B00796BF0 /* ViewController.xib */; };
+		9626DB741736398E00796BF0 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9626DB731736398E00796BF0 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		9626DB681736396B00796BF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9626DB691736396B00796BF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9626DB6C1736396B00796BF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		9626DB731736398E00796BF0 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9626DB741736398E00796BF0 /* CoreBluetooth.framework in Frameworks */,
 				9626DB511736396B00796BF0 /* UIKit.framework in Frameworks */,
 				9626DB531736396B00796BF0 /* Foundation.framework in Frameworks */,
 				9626DB551736396B00796BF0 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +59,7 @@
 		9626DB441736396B00796BF0 = {
 			isa = PBXGroup;
 			children = (
+				9626DB731736398E00796BF0 /* CoreBluetooth.framework */,
 				9626DB561736396B00796BF0 /* BlueToothMonitor */,
 				9626DB4F1736396B00796BF0 /* Frameworks */,
 				9626DB4E1736396B00796BF0 /* Products */,
